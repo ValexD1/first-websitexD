@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%= title %></title>
+    <%-include ('partials/head.html') %>
+</head>
+<body>
+    
+    <%-include ('partials/navigation.html') %>
+    
+    <section class="form-register col-md-4 offset-md-4 container p-5">
+        <h3>Contactame</h3>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingresa tu Nombre">
+        <input class="controls" type="text" name="mensaje" id="mensaje" placeholder="Escribe tu Mensaje">
+        <input class="botons" type="submit" value="Enviar">
+    </section>
+    <%-include ('partials/footer.html') %>
+    
+</body>
+</html>
